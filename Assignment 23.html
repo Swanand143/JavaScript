@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assign23</title>
+  </head>
+  <body>
+    <h1>Taking a number input from user using prompt</h1>
+    <script>
+      const num = prompt("Enter your number 0-9");
+      const pNum = parseInt(num);
+      console.log(`Number is ${pNum}`);
+
+      switch (pNum) {
+        case 0:
+          console.log("You Entered Zero.");
+          break;
+        case 1:
+          console.log("You Entered One.");
+          break;
+        case 2:
+          console.log("You Entered Two.");
+          break;
+        case 3:
+          console.log("You Entered Three.");
+          break;
+        case 4:
+          console.log("You Entered Four.");
+          break;
+        case 5:
+          console.log("You Entered Five.");
+          break;
+        case 6:
+          console.log("You Entered Six.");
+          break;
+        case 7:
+          console.log("You Entered Seven.");
+          break;
+        case 8:
+          console.log("You Entered Eight.");
+          break;
+        case 9:
+          console.log("You Entered Nine.");
+          break;
+        default:
+          console.warn("Enter number 0 to 9.");
+      }
+    </script>
+  </body>
+</html>
